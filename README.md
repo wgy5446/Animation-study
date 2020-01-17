@@ -14,26 +14,33 @@
 |animation-play-state|애니메이션의 재생과정지 설정|running|
 
 # 3. Animation 종류 각각의 값 도식표
-(1). animation-iteration-count
+
+
+## 3-1. animation-iteration-count
 |값|의미|기본값|
 |---|:---:|---:|
 |숫자|반복 횟수 설정|1|
 |infinite|무한반복||
-(2). animation-direction
+
+## 3-2. animation-direction
 |값|의미|기본값|
 |---|:---:|---:|
 |normal|정방향만반복|normal|
 |reverse| 역방향만반복|
 |alternate|정방향에서 역방향으로 반복|
 |alternate-reverse|역방향에서 정방향으로 반복|
-(3).animation-fill-mode'
+
+## 3-3. animation-fill-mode
+
 |값|의미|기본값|
 |---|:---:|---:|
 |none|기존위치시작점-->애니메이션 시작위치 이동-->동작-->기존위치에서 끝|none|
 |forwards|기존위치시작점-->애니메이션 시작위치 이동-->동작-->애니메이션 끝 위치에서 끝|
 |backwards|애니메이션 시작위치에서 시작-->동작-->기존위치에서 끝|
 |both|애니메이션 시작위치에서 시작-->동작-->애니메이션 끝 위치에서 끝|
-(4).animation-play-stats
+
+## 3-4. animation-play-stats
+
 |값|의미|기본값|
 |---|:---:|---:|
 |running|애니메이션을 동작|running|
